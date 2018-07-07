@@ -43,7 +43,7 @@ function logIdle() {
 	console.log('     ██║██████╔╝███████╗██║██║ ╚████║╚██████╔╝    ███████║   ██║   ██║  ██║██║  ██║   ██║   ███████╗██████╔╝');
 	console.log('     ╚═╝╚═════╝ ╚══════╝╚═╝╚═╝  ╚═══╝ ╚═════╝     ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═════╝ ');
 	console.log('\n\n');
-	console.log(`    * Start time: ${d.toGMTString()} * `);
+	console.log(`    * Start time: ${d.toLocaleString()} * `);
 	console.log('\n');
 	console.log(`    * Username: ${account_name} * `);
 	console.log('\n\n');
